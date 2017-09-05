@@ -156,3 +156,52 @@ body{
 #header .giveBorder{
 	border-bottom: 1px solid #888;
 }
+#header .size{
+	font-size: 24px;
+}
+#header .textStyle1{
+	font-size: 16px;
+	font-weight: bold;
+}
+#header .dropdownMenu{
+	position: relative;
+}
+#header .childMenu{
+	position: absolute;
+	top:100%;
+	left:0;
+	background: #fff;
+	min-height: 100px;
+	z-index: 5000000000;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	width: 200px;
+
+}
+#header .styleText{
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+	width: 169px;
+    height: 5%;
+
+}
+#header .box1{
+    height: 38px;
+	border-bottom: 1px solid  rgba(0,0,0,.1);
+	position: relative;
+}
+#header .box2{
+    height: 38px;
+	/*border-bottom: 1px solid #888;*/
+}
+#header .icon2{
+	float: right;
+}
+#header .box1:hover{
+   background: rgba(0,0,0,.1);
+   cursor: pointer;
+}
+#header .box2:hover{
+      background: rgba(0,0,0,.1);
+		cursor: pointer;
+}
