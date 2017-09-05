@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,400i,600,700');
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+.heading{
+	background: #111111;
+    height: 76px;
+}
+.heading .dropDownButton{
+    font-size: 0.7rem;
+    height: 26px;
+    font-weight: bold;
+    color: white;
+    background: #333333;
+    border: none;
+    focus:none;
+
+}
+.heading .giveHeight{
+	height: 76px;
+}
+.heading .widthDropdown{
+	width: 85%;
+}
+#value1{
+	float:left;
+	display: inline-block;
+}
+.dropdown .dropdown-toggle{
+	text-align: right;
+}
+.dropdown-menu {
+  
+    min-width: 8.5rem;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+   
+}
+.dropdown-item {
+	color: white;
+	font-size: 0.7rem;
+	font-weight: bold;
+
+}
+.dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #48489c;
+}
+.btn{
+	cursor: pointer;
+	border: none;
+}
+.btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: white;
+    background-color: #333333;
+    background-image: none;
+    border: none;
+    outline: none;
+    focus:none;
+}
+.btn-secondary.focus, .btn-secondary:focus{
+	box-shadow: none;
+}
+.heading .box1{
+	background: #333333;
+    padding: 10% 5%;
+    border-radius: 4px;
+    height: 56px;
+    border:1px solid transparent;
+}
+.heading .box1:hover{
+		border:1px solid red;
+	}
+.heading .textStyle1{
+    font-size: 0.6rem;
+    line-height: 0.1rem;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1500px){
+	.heading{
+	background: #111111;
+    height: 75px;
+}
+	.heading .giveHeight{
+	height: 75px;
+}
+	.heading .box1{
+	background: #333333;
+    padding: 10% 5%;
+    border-radius: 4px;
+    height: 63px;
+}
+
+}
+.heading .styleNumber{
+	font-size: 0.6rem;
+    line-height: 0.1rem;
+    font-weight: bold;
+    float: right;
+}
+.heading .textStyle2{
+    font-size: 0.7rem;
+    line-height: 0.1rem;
+    color: #888;
+    margin-top: -4%;
+}
