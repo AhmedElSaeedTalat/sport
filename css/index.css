@@ -521,6 +521,20 @@ body{
     background: rgb(136, 136, 136);
     /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
 }
+::-moz-scrollbar {
+    width: 5px;
+	background: transparent;
+}
+ 
+::-moz-scrollbar-track {
+    background: transparent;
+}
+ 
+::-moz-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgb(136, 136, 136);
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
 .close2
 {
     font-size: 3.5rem;
@@ -640,12 +654,20 @@ body{
     width: 41%;
 }
 #soccer .adjustRow{
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid  rgba(0,0,0,0.2);
     margin-bottom: 1%;
     width: 100%;
     margin-left: 0%;
 }
 #soccer .wrapper1{
+	 position: absolute;
+    left: 0;
+    top: 84%;
+    width: 28px;
+    background: #fe074e;
+    text-align: center;
+}
+#soccer .wrapper75{
 	 position: absolute;
     left: 0;
     top: 84.5%;
@@ -710,4 +732,201 @@ body{
 #soccer .hoverTxt:hover{
 	border-bottom: 1px solid #fe074e;
 	cursor: pointer;
+}
+#media .adjustContainer{
+	background: white;
+}
+#media .style{
+    font-size: 17px;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    height: 33px;
+}
+#media .txtBorder{
+	padding-bottom: 1%;
+	border-bottom: 1px solid #fe074e;
+}
+#media  .wrapper3{
+   height: 28px;
+    background: red;
+    width: 37px;
+    text-align: center;
+    position: absolute;
+    top: 86%;
+}
+#media .txt {
+	font-size: 14px;
+	color: #888888;
+   	margin-bottom: 0;
+
+}
+#media .hover:hover {
+	color: #fe074e;
+	cursor: pointer;
+}
+#media .txt1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #111111;
+   	margin-bottom: 1px;
+   	cursor: pointer;
+
+}
+#media .txt1:hover{
+	color: #fe074e;
+}
+#media .txt2{
+	font-size: 16px;
+	font-weight: bold;
+	color: #555555;
+	margin-bottom: 1px;
+}
+#media .txt3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+
+}
+#media .txt4{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fe074e;
+
+}
+#media .txt4:hover{
+	border-bottom: 1px solid #fe074e;
+	cursor: pointer;
+
+}
+.txt6{
+	color: #fe074e;
+	font-weight: bold;
+	font-size: 12px;
+}
+#media .imageSize{
+	width: 45%;
+
+}
+#media .adjustBorder{
+	padding-bottom: 4%;
+    border-bottom: 1px solid  rgba(0,0,0,0.2);
+}
+#media .txtStyle{
+	font-size: 10px;
+	color: #aaaaaa;
+}
+#media .styleTexts{
+	font-size: 12px;
+	font-weight: bold;
+	color:#111111;
+	margin-bottom: 0;
+    padding: 14% 0%;
+}
+#media .color{
+	background: rgba(0,0,0,0.2);
+    width: 86%;
+}
+#media .iconStyle{
+	color: #fe074e;
+}
+#media .height{
+	height: 50px;
+}
+#media .individualWrapper{
+    height: 116%;
+    background: transparent;
+    width: 88px;
+    text-align: center;
+}
+#media .active{
+	background: white;
+}
+#media .wrapper4{
+	padding:2%;
+}
+#headLines, #trending, #videos{
+	cursor: pointer;
+}
+@media only screen and (min-width: 1500px){
+	#soccer .wrapper1{
+    top: 83%;
+    
+}
+}
+#media .padding{
+	padding: 0% 11%;
+}
+#media  .wrapper101{
+    height: 19px;
+    background: red;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+}
+#media .imageSize1{
+	width: 24%;
+
+}
+#media .txt1-modified{
+	font-size: 15px;
+	font-weight: bold;
+	color: #111111;
+   	margin-bottom: 1px;
+   	cursor: pointer;
+
+}
+#media .txt1-modified:hover{
+	color: #fe074e;
+}
+#media .height1{
+	    height: 64px;
+}
+#media .cam1{
+	color: white;
+	font-size: 10px;
+}
+#media .styleTxt101{
+	font-size: 17px;
+	font-weight: bold;
+	color: #111111;
+	margin-bottom: 0;
+	height: 32px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#media .changeStyle{
+	    padding-bottom: 6px;
+		border-bottom: 1px solid #fe074e;
+}
+#media .styleImage{
+	border-radius: 100%;
+}
+#media .cam5{
+	color: white;
+    font-size: 19px;
+    padding-top: 14%;
+    padding-left: 2%;
+}
+ .btn-info{
+	background-color:transparent;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #0077ee;
+	font-size: 12px;
+	font-weight: 600;
+	height: 37px;
+}
+.btn-info:hover{
+	border: 1px solid #0077ee;
+	background-color:transparent;
+	color: #0077ee;
+	font-size: 12px;
+	font-weight: 600;
+}
+.position101{
+	position: fixed;
+	top: 53%;
+    width: 32%;
+
 }

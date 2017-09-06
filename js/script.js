@@ -144,4 +144,29 @@ function xx(){
 		$(".background").css("z-index","100000000000000000");
 			$(".sideMenu").toggle("slide");
 
-	})
+	});
+	$("#headLines").click(function(){
+		$(this).addClass("active");
+		$("#trending").removeClass("active");
+		$("#videos").removeClass("active");
+
+	});
+	$("#trending").click(function(){
+		$(this).addClass("active");
+		$("#headLines").removeClass("active");
+		$("#videos").removeClass("active");
+
+	});
+	$("#videos").click(function(){
+		$(this).addClass("active");
+		$("#trending").removeClass("active");
+		$("#headLines").removeClass("active");
+
+	});
+	// $(document).ready(function(){
+	// 	 x = $("#divFixed");
+	// 	 y = scrollMonitor.create(x);
+	// 	 y.enterViewport(()=>{
+	// 	 	$("#divFixed").addClass("position101");
+	// 	 });
+	// });
