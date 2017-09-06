@@ -130,3 +130,18 @@ $("#iconMinus4").click(function(){
 	$("#text").removeClass("border1");
 
 });
+$(".close2").click(function(){
+	$(".sideMenu").toggle("slide");
+	setTimeout(xx,600);	
+
+});
+function xx(){
+		$(".background").css("background","transparent");
+		$(".background").css("z-index","-1");
+	}
+	$("#sideMenuClick").click(function(){
+		$(".background").css("background","rgba(34,34,34,.7)");
+		$(".background").css("z-index","100000000000000000");
+			$(".sideMenu").toggle("slide");
+
+	})

@@ -417,16 +417,17 @@ body{
 	height: 100%;
 	background: white;
 	z-index: 1000000000000000000000000;
+	overflow-y: scroll;
+	display: none;
 }
 .background{
-			background: rgba(34,34,34,.7);
+			background: transparent;
 		height: 100%;
 		width: 100%;
 		position: fixed;
 		top: 0;
 		left: 0;
-		z-index: 100000000000000000000000000;
-		overflow: auto;
+		z-index: -1;
 }
 .background .styleText{
 	font-size: 16px;
@@ -505,4 +506,208 @@ body{
 }
 .wrapper:hover .iconFace{
 	color:#333333;
+}
+::-webkit-scrollbar {
+    width: 5px;
+	background: transparent;
+}
+ 
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgb(136, 136, 136);
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+.close2
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+    top: -8px;
+    z-index: 100000000000000000000000000;
+}
+.mainNews .backgroundImage{
+    background: url(../images/rugbyMain.jpg);
+    background-size: cover;
+    height: 520px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.mainNews .tag{
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 19px;
+}
+.mainNews .wrapper1{
+   height: 19px;
+    background: red;
+    width: 79px;
+    border-radius: unset;
+    text-align: center
+}
+.mainNews .textStyle {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+}
+.mainNews .textStyle1{
+	color: white;
+	font-size: 16px;
+}
+.mainNews .backgroundImage2{
+	    background: url(../images/mainRugby2.jpg);
+     background-size: cover; 
+    background-repeat: no-repeat;
+    height: 260px;
+    position: relative;
+}
+.mainNews .textStyle2 {
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+}
+.mainNews .backgroundImage3{
+	    background: url(../images/baseballMain.jpg);
+     background-size: cover; 
+    background-repeat: no-repeat;
+    height: 260px;
+    position: relative;
+}
+.mainNews .text-block{
+	    z-index: 5;
+
+}
+.mainNews .backgroundImage:hover .layer{
+		display: block;
+}
+.mainNews .backgroundImage2:hover .layer{
+		display: block;
+}
+.mainNews .backgroundImage3:hover .layer{
+		display: block;
+}
+.mainNews .layer{
+	 background:linear-gradient(transparent,rgba(8,7,7,0.9));
+	 position: absolute;
+	 height: 30%;
+	 width:100%;
+	 top:70%;
+	 left:0;
+	 z-index: 1;
+	 display: none;
+}
+.mainImage{
+	position: relative;	
+}
+.mainImage .wrapper1{
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 28px;
+    background: #fe074e;
+    text-align: center;
+}
+.mainImage .cam{
+	color: white;
+	font-size: 13px;
+}
+.mainImage .cam1{
+	color: white;
+	font-size: 15px;
+}
+#soccer .adjustContainer{
+	    background: white;
+   		 padding: 2%;
+}
+#soccer .style {
+	font-size: 17px;
+	font-weight: bold;
+	color: #111111;
+    margin-bottom: -0.1rem;
+    line-height: 14px;
+    border-bottom: 1px solid #fe074e;
+    padding-bottom: 13px;
+    width: 41%;
+}
+#soccer .adjustRow{
+	border-bottom: 1px solid #888;
+    margin-bottom: 1%;
+    width: 100%;
+    margin-left: 0%;
+}
+#soccer .wrapper1{
+	 position: absolute;
+    left: 0;
+    top: 84.5%;
+    width: 28px;
+    background: #fe074e;
+    text-align: center;
+}
+#soccer .txt {
+	font-size: 12px;
+	color: #888888;
+   	margin-bottom: 0;
+
+}
+#soccer .hover:hover {
+	color: #fe074e;
+	cursor: pointer;
+}
+#soccer .txt1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #111111;
+   	margin-bottom: 1px;
+   	cursor: pointer;
+
+}
+#soccer .txt1:hover{
+	color: #fe074e;
+}
+#soccer .txt2{
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+	margin-bottom: 1px;
+}
+#soccer .txt3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+
+}
+#soccer .txt4{
+	font-size: 12px;
+	font-weight: bold;
+	color: #fe074e;
+
+}
+#soccer .txt4:hover{
+	border-bottom: 1px solid #fe074e;
+	cursor: pointer;
+
+}
+.txt6{
+	color: #fe074e;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#soccer .adjustIcon{
+	    padding-left: 1%;
+    	font-weight: bold;
+}
+#soccer .hoverTxt:hover{
+	border-bottom: 1px solid #fe074e;
+	cursor: pointer;
 }
