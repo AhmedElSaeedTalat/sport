@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,400i,600,700');
 body{
 	font-family: 'Titillium Web', sans-serif;
+	background: #dddddd;
 }
 .heading{
 	background: #111111;
@@ -143,6 +144,9 @@ body{
 }
 #header {
 	background: white;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	height: 105px;
+	position: relative;
 }
 #header .color{
 	font-size: 10px;
@@ -165,6 +169,21 @@ body{
 }
 #header .dropdownMenu{
 	position: relative;
+/*	transition: all .5s linear;
+*/    height: 38px;
+
+}
+#header .dropdownMenu:hover{
+		color: #fe074e;
+	    border-bottom: 1px solid #fe074e;
+}
+#header .dropdownMenu2{
+    height: 38px;
+
+}
+#header .dropdownMenu2:hover{
+		color: #fe074e;
+	    border-bottom: 1px solid #fe074e;
 }
 #header .childMenu{
 	position: absolute;
@@ -175,8 +194,24 @@ body{
 	z-index: 5000000000;
 	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
 	width: 200px;
-
+	transition: all .5s linear;
+	visibility: hidden;
 }
+#header .dropdownMenu:hover .childMenu{
+		animation: xx 0.5s linear;
+		animation-fill-mode: forwards;
+		/*display: block;*/
+	}
+	@keyframes xx{
+		0%{
+			visibility: visible;
+			top:60%;
+		}
+		100%{
+			visibility: visible;
+			top:105%;
+		}
+	}
 #header .styleText{
 	color: #333333;
 	font-weight: bold;
@@ -188,7 +223,7 @@ body{
 #header .box1{
     height: 38px;
 	border-bottom: 1px solid  rgba(0,0,0,.1);
-	position: relative;
+	
 }
 #header .box2{
     height: 38px;
@@ -204,4 +239,270 @@ body{
 #header .box2:hover{
       background: rgba(0,0,0,.1);
 		cursor: pointer;
+}
+#header .position{
+	position: relative;
+}
+#header .secondMenu{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	min-height: 100px;
+	z-index: 5000000000;
+	width: 200px;
+	visibility: hidden;
+	background: white;
+
+}
+#header .boxSide{
+    height: 38px;
+	border-bottom: 1px solid  rgba(0,0,0,.1);
+}
+#header .boxSide:hover{
+   background: rgba(0,0,0,.1);
+   cursor: pointer;
+}
+#header .thirdMenu{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	min-height: 100px;
+	z-index: 5000000000;
+	width: 200px;
+	display: none;
+	background: white;
+
+}
+#header .forthMenu{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	min-height: 100px;
+	z-index: 5000000000;
+	width: 200px;
+	display: none;
+	background: white;
+
+}
+#header .toHover:hover .secondMenu{
+	visibility: visible;
+}
+#header .toHover3:hover .thirdMenu{
+	display: block;
+}
+#header .toHover4:hover .forthMenu{
+	display: block;
+}
+
+#header .textStyle3{
+	font-weight: bold;
+	color: #333333;
+	font-size:15px; 
+}
+#header .football{
+	width: 100%;
+	position: absolute;
+	top: 105%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	visibility: hidden;
+	background: white;
+	z-index: 500000000000000;
+
+}
+#header .img{
+	width: 16%;
+}
+.card{
+	border:none;
+}
+.card-block {
+    padding: 0.50rem 0rem;
+}
+#header .textStyle3:hover{
+	color: #fe074e;
+	cursor: pointer;
+}
+ .card:hover  .card-block .textStyle3{
+	color: #fe074e !important;
+}
+.mainImage{
+	cursor: pointer;
+}
+/*header .dropdownMenu2:hover ~  .football{
+	visibility: visible;
+}*/
+.animate{
+	animation: animate .5s linear;
+}
+@keyframes animate{
+		0%{
+			top:80%;
+		}
+		100%{
+			top:105%;
+		}
+	}
+	#header .baseball{
+	width: 100%;
+	position: absolute;
+	top: 105%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	visibility: hidden;
+	background: white;
+	z-index: 500000000000000;
+
+}
+#header .soccer{
+	width: 100%;
+	position: absolute;
+	top: 105%;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.2);
+	visibility: hidden;
+	background: white;
+	z-index: 500000000000000;
+
+}
+.border {
+	border-bottom:1px solid #fe074e
+}
+#header .dropdownMenu3{
+
+	   height: 38px;
+
+}
+#header .dropdownMenu4{
+
+	   height: 38px;
+
+}
+.search{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,.94);
+	height: 100%;
+	width: 100%;
+	z-index: 10000000000000000000000000000000;
+	visibility: hidden;
+}
+.search .search1{
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #333333;
+	outline: none;
+	font-size: 60px;
+	color: #333333;
+
+}
+.close1
+{
+    font-size: 6.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+.sideMenu{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 30%;
+	height: 100%;
+	background: white;
+	z-index: 1000000000000000000000000;
+}
+.background{
+			background: rgba(34,34,34,.7);
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100000000000000000000000000;
+		overflow: auto;
+}
+.background .styleText{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 3%;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.background .styleText1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 3%;
+}
+.border1{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+
+}
+.background .icon{
+	float: right;
+	cursor: pointer;
+	color: #333333;
+}
+.background .adjustDiv{
+	width: 96%;
+    padding-left: 10%;
+}
+#iconMinus{
+	display: none;
+}
+.background .adjustDiv1{
+	width: 100%;
+    padding-left: 10%;
+}
+#iconMinus1{
+	display: none;
+}
+.background .styleText:hover{
+	color: #fe074e;
+	cursor: pointer;
+}
+#iconMinus2{
+	display: none;
+}
+#iconMinus3{
+	display: none;
+}
+#iconMinus4{
+	display: none;
+}
+.styleONe{
+	font-size: 10px;
+	color:#333333;
+}
+.wrapper{
+	border-radius: 100%;
+	background: #333333;
+	height: 30px;
+	width:30px;
+	transition:all 0.5s linear;
+}
+
+.fa{
+	font-size: 10;
+}
+.iconFace{
+	color: white;
+	font-size: 13px !important;
+}
+.wrapper:hover{
+	background: white;
+	outline: #333333;
+	border: 2px solid #333333;
+	color: #333333;
+	cursor: pointer;
+}
+.wrapper:hover .iconFace{
+	color:#333333;
 }
