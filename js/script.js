@@ -214,6 +214,7 @@ $(document).ready(function(){
 		$("#removeMargin").removeClass("mt-4");
 		$(".mainNews").removeClass("mt-3");
 		$(".mainNews").addClass("mt-2");
+		 $(".fix105").removeClass("fix105");
 	}
 	else if($(this).width() < 980 && $(this).width()>=768){
 
