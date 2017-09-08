@@ -163,7 +163,9 @@
 
 
 								<!-- %%%%%%%% Menu %%%%%%%%%%%%%% -->
-<div class="heading">
+
+		<section id="mainMenuSection " class="fixed-top">
+			<div class="heading hidden-sm-down" id="heading">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2  d-flex align-items-center giveHeight">
@@ -178,8 +180,12 @@
 						  </div>
 						</div>
 			</div>
-			<div class="col-sm-10   giveHeight overflow">
-				<div class="row d-flex align-items-center giveHeight">
+			
+					<div   class="col-sm-10   giveHeight overflow h-100 w-100">
+						<div id="carouselExampleControls" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="0">
+				<div class="carousel-inner h-100 w-100">
+					<div class="carousel-item active h-100 w-100">
+						<div class="row d-flex align-items-center giveHeight  w-100">
 					<div class="col-sm-2">
 						<div class="box1 text-white addPosition">
 							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
@@ -221,23 +227,116 @@
 							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
 							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
 							<p class="textStyle2 text-center ">Final</p>
-							<div class="iconRight d-flex align-items-center justify-content-center"><i class="fa fa-angle-right icon1" aria-hidden="true"></i></div>
+							</div>
+							</div>
+						</div><!-- row -->
+					
+				</div><!-- item1 -->
+
+
+				<div class="carousel-item  h-100 w-100">
+						<div class="row d-flex align-items-center giveHeight  w-100">
+					<div class="col-sm-2">
+						<div class="box1 text-white addPosition">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p>
 						</div>
 					</div><!-- nestedColumn -->
-				</div><!-- row -->
-			</div>
+					<div class="col-sm-2">
+						<div class="box1 text-white">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p>
+						</div>
+					</div><!-- nestedColumn -->
+					<div class="col-sm-2">
+						<div class="box1 text-white">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p>
+						</div>
+					</div><!-- nestedColumn -->
+					<div class="col-sm-2">
+						<div class="box1 text-white">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p>
+						</div>
+					</div><!-- nestedColumn -->
+					<div class="col-sm-2">
+						<div class="box1 text-white">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p>
+						</div>
+					</div><!-- nestedColumn -->
+					<!-- <div class="col-sm-2">
+						<div class="box1 addPosition text-white">
+							<p class="textStyle1">DET <span class="styleNumber">17</span></p>
+							<p class="textStyle1">WAS <span class="styleNumber">21</span></p>
+							<p class="textStyle2 text-center ">Final</p> -->
+					<!-- 		<div class="iconRight d-flex align-items-center justify-content-center carousel-control-next"
+								role="button" data-slide="next"
+							></div> -->
+						
+						</div><!-- row -->
+					<!-- </div>nestedColumn -->
+				</div><!-- item2 -->
+	
 
+
+
+
+
+
+			</div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" id="changeVisibility1">
+    <span aria-hidden="true"> <i class="fa fa-angle-left iconLeft  "  aria-hidden="true"></i></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" id="changeVisibility"> 
+    <span  aria-hidden="true"><i class="fa fa-angle-right iconRight  "  aria-hidden="true"></i></span>
+    <span class="sr-only">Next</span>
+  </a>
+					</div><!-- carousel -->
+				</div>
+			</div>
+				
+		
+
+								<!-- %%%%%%%%%%%%%%%%  duplicate %%%%%%%%%%%%%%%%-->
+
+	
+		
+
+
+
+
+
+
+
+									<!-- %%%%%%%%%%%%%%% end duplicate %%%%%%%%%%%%%%%%%%%%-->
 		</div><!-- rowParent -->
 	</div><!-- container -->
 </div><!-- heading -->
 
-<section id="header">
+
+
+<div id="fixTop " >
+	<section id="header">
 	<div class="container">
 		<div class="row giveBorder theme theme1 theme2">
-			<div class="col-sm-2">
-				<img src="images/logo.png" alt="" class="img-fluid">
+			<div class="col-sm-2 col-md-3 col-lg-2 " id="logo">
+				<img src="images/logo.png" alt="" class="img-fluid correctHeight">
 			</div>
-			<div class="col-sm-10 d-flex justify-content-end mt-2">
+			<li class="visible-md-down hidden-lg-up listSmall ">
+						<i class="fa fa-align-left hoverIcon size" aria-hidden="true" id="sideMenuClickXS"></i>
+					</li>
+					<li class="visible-sm-down hidden-sm-up listSmall1">
+						<i class="fa fa-search hoverIcon" aria-hidden="true" id="searchXS"></i>
+					</li>
+			<div class="col-sm-10 col-md-9 col-lg-10 hidden-sm-down d-flex justify-content-end mt-2">
 				<ul class="list-inline">
 					<li class="list-inline-item text-uppercase color">connect with us</li>
 					<li class="list-inline-item p-1">
@@ -258,7 +357,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row mt-2 mb-2">
+		<div class="row hidden-md-down  mt-2 mb-2">
 			<ul class="list-inline dropdown">
 					<li class="list-inline-item p-1  ">
 						<i class="fa fa-align-left hoverIcon size" aria-hidden="true" id="sideMenuClick"></i>
@@ -482,7 +581,7 @@
 
 		</div><!-- row -->
 	</div><!-- mainContainer -->
-	<div class="football ">
+	<div class="football hidden-sm-down">
 	<div class="container">
 				<div class="card-deck pt-3">
 			<div class="card img">
@@ -545,7 +644,7 @@
 
 
 
-	<div class="baseball ">
+	<div class="baseball hidden-sm-down">
 	<div class="container">
 				<div class="card-deck pt-3">
 			<div class="card img">
@@ -604,7 +703,7 @@
 
 
 
-	<div class="soccer ">
+	<div class="soccer hidden-sm-down">
 	<div class="container">
 				<div class="card-deck pt-3">
 			<div class="card img">
@@ -667,7 +766,13 @@
 	</div><!-- container -->
 
 	</div><!-- soccer -->
-</section>
+	</section>
+</div>
+
+
+		</section>
+
+
 
 
 
@@ -678,29 +783,29 @@
 
 
 								<!-- %%%%%%% add %%%%%%%%% -->
-<div class="responsiveImage mt-3">
+<div class="responsiveImage otherMargin ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12  d-flex justify-content-center">
-				<img src="images/responsive.jpg" alt="" class="img-fluid">
+				<img src="images/responsive.jpg" alt="" class="img-fluid imgRes" >
 				
 			</div>
 		</div>
 	</div>
 </div><!-- responsiveImage -->
 
-<section class="mainNews mt-3 mb-2">
+<section class="mainNews mt-3 mb-4">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 backgroundImage d-flex align-items-end">
 				<div class="text-block ">
 				  <div class="wrapper1">
-				  	<p class="tag">football	</p>
+				  	<p class="tag text-uppercase">football	</p>
 				  </div>
 					<h1 class="textStyle text-capitalize">
 						national signing day 2017
 					</h1>
-					<p class="textStyle1">
+					<p class="textStyle1 hidden-sm-down">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem obcaecati explicabo accusantium fuga quo fugiat unde voluptas similique labore laudantium eius esse quas
 					</p>
 				</div><!-- text-block -->
@@ -711,7 +816,7 @@
 					<div class="col-md-12 backgroundImage2 d-flex align-items-end">
 						<div class="text-block ">
 				  <div class="wrapper1">
-				  	<p class="tag">Hockey	</p>
+				  	<p class="tag text-uppercase">Hockey	</p>
 				  </div>
 					<h1 class="textStyle2 text-capitalize">
 					Blue Jackets rookie Werenski adapting quickly to life in the NHL					</h1>
@@ -722,7 +827,7 @@
 					<div class="col-md-12 backgroundImage3 d-flex align-items-end">
 						<div class="text-block ">
 				  <div class="wrapper1">
-				  	<p class="tag">Baseball	</p>
+				  	<p class="tag text-uppercase">Baseball	</p>
 				  </div>
 					<h1 class="textStyle2 text-capitalize">
 						2016 free agency tracker: Keep up with every player signing					</h1>
@@ -745,15 +850,15 @@
 		<div class="col-sm-2 p-0">
 			<p class="text-uppercase style">Soccer</p>
 		</div>
-		<div class="col-10 text-right">
+		<div class="col-10 hidden-sm-down text-right">
 			<p class="mb-0 text-uppercase txt6"><span class="hoverTxt">more soccer</span> <i class="fa fa-angle-right adjustIcon" aria-hidden="true"></i></p>
 		</div>	
 		</div><!-- row -->
 		<div class="row mt-4">
-			<div class="col-sm-3">
-				<div class="card img">
+			<div class="col-sm-3 ">
+				<div class="card img modifySmall margin">
 				<div class="mainImage">
-					<img src="images/soccer1.jpg" alt="" class="img-fluid">
+					<img src="images/soccer1.jpg" alt="" class="img-fluid img101">
 					<div class="wrapper1">
 						<i class="fa fa-camera cam" aria-hidden="true"></i>
 
@@ -762,15 +867,15 @@
 				<div class="card-block ">
 				<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 			</div><!-- card -->
 			</div><!-- col -->
-				<div class="col-sm-3">
-					<div class="card img">
+				<div class="col-sm-3 ">
+					<div class="card img modifySmall margin">
 					<div class="mainImage ">
-						<img src="images/soccer2.jpg" alt="" class="img-fluid">
+						<img src="images/soccer2.jpg" alt="" class="img-fluid img101">
 						<div class="wrapper1">
 						<i class="fa fa-camera cam" aria-hidden="true"></i>
 					</div>
@@ -779,15 +884,15 @@
 					<div class="card-block ">
 				<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 				</div><!-- card -->
 				</div><!-- col -->
-				<div class="col-sm-3">
-					<div class="card img">
+				<div class="col-sm-3 ">
+					<div class="card img modifySmall margin">
 						<div class="mainImage">
-							<img src="images/soccer3.jpg" alt="" class="img-fluid">
+							<img src="images/soccer3.jpg" alt="" class="img-fluid img101">
 								<div class="wrapper1">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 							 	</div>
@@ -795,22 +900,22 @@
 						<div class="card-block ">
 				<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 				</div><!-- card -->
 			</div><!-- col -->
-				<div class="col-sm-3">
-					<div class="card img">
+				<div class="col-sm-3 ">
+					<div class="card img modifySmall margin">
 						<div class="mainImage ">
-							<img src="images/soccer4.jpg" alt="" class="img-fluid">
+							<img src="images/soccer4.jpg" alt="" class="img-fluid img101">
 					
 						</div>
 						<div class="card-block ">
 				<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 					</div><!-- card -->
 				</div><!-- col -->
@@ -826,7 +931,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12  d-flex justify-content-center">
-				<img src="images/responsive.jpg" alt="" class="img-fluid">
+				<img src="images/responsive.jpg" alt="" class="img-fluid imgRes">
 				
 			</div>
 		</div>
@@ -836,15 +941,15 @@
 
 								<!-- %%%%%%%%%% BASEBALL %%%%%%%%%% -->
 
-<section id="soccer" class="mt-3">
+<section id="soccer" class="mt-3 theBackground">
 		
 	<div class="container ">
 		
 		<div class="row">
 			<div class="col-sm-3">
-				<div class="card img">
+				<div class="card img modifySmall margin">
 				<div class="mainImage">
-					<img src="images/baseball1.jpg" alt="" class="img-fluid">
+					<img src="images/baseball1.jpg" alt="" class="img-fluid img101">
 					<div class="wrapper75">
 						<i class="fa fa-caret-right cam" aria-hidden="true"></i>
 
@@ -853,15 +958,15 @@
 				<div class="card-block px-2 pt-2 pb-2">
 				<p class="txt"><strong class="hover">BASEBALL</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 			</div><!-- card -->
 			</div><!-- col -->
 				<div class="col-sm-3">
-					<div class="card img">
+					<div class="card img modifySmall margin">
 					<div class="mainImage ">
-						<img src="images/baseball2.jpg" alt="" class="img-fluid">
+						<img src="images/baseball2.jpg " alt="" class="img-fluid img101">
 						<div class="wrapper1">
 						<i class="fa fa-caret-right cam" aria-hidden="true"></i>
 					</div>
@@ -870,29 +975,29 @@
 					<div class="card-block px-2 pt-2 pb-2">
 				<p class="txt"><strong class="hover">BASEBALL</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 				</div><!-- card -->
 				</div><!-- col -->
 				<div class="col-sm-3">
-					<div class="card img">
+					<div class="card img modifySmall margin">
 						<div class="mainImage">
-							<img src="images/baseball3.jpg" alt="" class="img-fluid">
+							<img src="images/baseball3.jpg" alt="" class="img-fluid img101">
 								
 						</div>
 						<div class="card-block px-2 pt-2 pb-2">
 				<p class="txt"><strong class="hover">BASEBALL</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 				</div><!-- card -->
 			</div><!-- col -->
 				<div class="col-sm-3">
-					<div class="card img">
+					<div class="card img modifySmall margin">
 						<div class="mainImage ">
-							<img src="images/baseball4.jpg" alt="" class="img-fluid">
+							<img src="images/baseball4.jpg" alt="" class="img-fluid img101">
 							<div class="wrapper1">
 										<i class="fa fa-caret-right cam" aria-hidden="true"></i>
 							 	</div>
@@ -900,8 +1005,8 @@
 						<div class="card-block px-2 pt-2 pb-2">
 				<p class="txt"><strong class="hover">BASEBALL</strong>/ 6 months ago</p>
 					<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-					<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-					<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+					<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+					<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 				</div>
 					</div><!-- card -->
 				</div><!-- col -->
@@ -914,11 +1019,11 @@
 
 
 						<!-- %%%%%%% add %%%%%%%%% -->
-<div class="responsiveImage mt-3">
+<div class="responsiveImage mt-3" id="add">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12  d-flex justify-content-center">
-				<img src="images/responsive.jpg" alt="" class="img-fluid">
+				<img src="images/responsive.jpg" alt="" class="img-fluid imgRes">
 				
 			</div>
 		</div>
@@ -937,148 +1042,149 @@
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4 ">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/soccer1.jpg" alt="" class="img-fluid" />
+							<div class="mainImage  imageSize ">
+								<img src="images/soccer1.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/rugby.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/rugby.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-caret-right cam5" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
-								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt1 ">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/basket.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/basket.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-caret-right cam5" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/boxing.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/boxing.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-caret-right cam5" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/fight.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/fight.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/hockey.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/hockey.jpg" alt="" class="img-fluid img101"  />
 									<div class="wrapper3">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body">
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
 					<div class="col-sm-12 mt-4">
 						<div class="media adjustBorder">
-							<div class="mainImage imageSize">
-								<img src="images/ice.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/ice.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body">
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
-					</div><!-- col-nested-12 -->
+					</div><!-- col-nested-12 --> 
 					<div class="col-sm-12 mt-4">
 						<div class="media ">
-							<div class="mainImage imageSize">
-								<img src="images/gulf.jpg" alt="" class="img-fluid" />
+							<div class="mainImage imageSize ">
+								<img src="images/gulf.jpg" alt="" class="img-fluid img101" />
 									<div class="wrapper3">
 										<i class="fa fa-camera cam" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-5">
+							<div class="media-body px-5 body" >
 								<p class="txt"><strong class="hover">SOCCER</strong>/ 6 months ago</p>
 								<p class="txt1">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
-								<p class="txt2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
-								<p class="txt3">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
+								<p class="txt2 hidden-sm-down">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+								<p class="txt3 hidden-sm-down">by <span class="text-capitalize txt4"> The League Staff</span>	</p>
 										</div>
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
-					<div class="col-sm-12 mt-3">
+					<div class="col-sm-12 mt-3 mb-3">
 						<button class="btn btn-info btn-block">MORE POSTS</button>
 					</div><!-- col-nested-12 -->
 				</div><!-- row -->
 				
 			</div><!-- col-8-Parent -->
-			<div class="col-sm-4 mt-4" id="fix">
+			
+							<div class="col-sm-4 mt-4 " id="removeMargin">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center txtStyle">ADVERTISEMENT</p>
+						<p class="text-center txtStyle style109 ">ADVERTISEMENT</p>
 					</div>
 					<div class="col-sm-12 d-flex justify-content-center">
-						<img src="images/add1.jpg" alt="" class="img-fluid">
+						<img src="images/add1.jpg" alt="" class="img-fluid" >
 					</div>
-					<div class="col-sm-12 d-flex justify-content-center height mt-4">
-					<div class="color d-flex justify-content-center">
+					<div class="col-sm-12 d-flex justify-content-center height mt-4 margin106" id="addColor">
+					<div class="color d-flex justify-content-center" id="removeColor">
 						<div class="wrapper4 list-inline ">
 							<div class="individualWrapper active list-inline-item" id="headLines" >
 								<p class="styleTexts ">
@@ -1087,14 +1193,14 @@
 								</p>
 							</div>
 								<div class="individualWrapper list-inline-item" id="trending">
-									<p class="styleTexts  pl-2">
+									<p class="styleTexts   somePadding" >
 										<i class="fa fa-bolt iconStyle" aria-hidden="true"></i>
 							TRENDING
 									</p>
 								</div>
 							
 								<div class="individualWrapper list-inline-item " id="videos">
-									<p class="styleTexts pl-2">
+									<p class="styleTexts somePadding">
 										<i class="fa fa-fast-forward iconStyle" aria-hidden="true"></i>
 							VIDEOS
 									</p>
@@ -1111,13 +1217,13 @@
 										<i class="fa fa-camera cam1" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-3">
+							<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
-					<div class="col-sm-12 mt-4 padding">
+					<div class="col-sm-12 mt-4 padding" >
 						<div class="media ">
 							<div class="mainImage imageSize1">
 								<img src="images/bas.jpg" alt="" class="img-fluid height1"    />
@@ -1125,35 +1231,35 @@
 										<i class="fa fa-camera cam1" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-3">
+							<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
-					<div class="col-sm-12 mt-4 padding">
+					<div class="col-sm-12 mt-4 padding" >
 						<div class="media ">
-							<div class="mainImage imageSize1">
+							<div class="mainImage imageSize1" >
 								<img src="images/fight.jpg" alt="" class="img-fluid height1"    />
 									<div class="wrapper101 d-flex align-items-center justify-content-center">
 										<i class="fa fa-camera cam1" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-3">
-								<p class="txt"><strong class="hover">SOCCER</strong></p>
+							<div class="media-body px-3 changePadding">
+								<p class="txt" ><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
 						</div><!-- media -->
 					</div><!-- col-nested-12 -->
-					<div class="col-sm-12 mt-4 padding">
-						<div class="media ">
+					<div class="col-sm-12 mt-4 padding"  >
+						<div class="media " >
 							<div class="mainImage imageSize1">
 								<img src="images/rugby.jpg" alt="" class="img-fluid height1"    />
 									<div class="wrapper101 d-flex align-items-center justify-content-center">
 										<i class="fa fa-camera cam1" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-3">
+							<div class="media-body px-3 changePadding" >
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
@@ -1167,7 +1273,7 @@
 										<i class="fa fa-camera cam1" aria-hidden="true"></i>
 									</div><!-- wrapper -->	
 							</div><!-- mainImage -->
-							<div class="media-body px-3">
+							<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
@@ -1180,7 +1286,7 @@
 								<div class="col-sm-12 mt-4 padding" >
 					<div class="media">
 						<img src="images/man.jpeg" alt="" class="styleImage">
-						<div class="media-body px-3">
+						<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
@@ -1190,17 +1296,17 @@
 					<div class="col-sm-12 mt-4 padding">
 					<div class="media">
 						<img src="images/girl.jpeg" alt="" class="styleImage">
-						<div class="media-body px-3">
+						<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
 					</div>
 						
 					</div><!-- col-nested-12 -->
-					<div class="col-sm-12 mt-4 padding">
+					<div class="col-sm-12 mt-4 padding modifyMargin">
 					<div class="media">
 						<img src="images/girl2.jpeg" alt="" class="styleImage">
-						<div class="media-body px-3">
+						<div class="media-body px-3 changePadding">
 								<p class="txt"><strong class="hover">SOCCER</strong></p>
 								<p class="txt1-modified">Will Phoenix&apos;s MLS expansion bid rise above the others?</p>
 							</div><!-- mediabody -->
@@ -1211,16 +1317,114 @@
 			
 				</div><!-- second-row-nested -->
 			</div><!-- col-4-Parent -->
+
 		</div><!-- row-Parent -->
 	</div><!-- container-Parent -->
 </section>
+
+
+
+
+								<!-- %%%%%%% add %%%%%%%%% -->
+<div class="responsiveImage mt-3" id="bb">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12  d-flex justify-content-center">
+				<img src="images/responsive.jpg" alt="" class="img-fluid imgRes">
+				
+			</div>
+		</div>
+	</div>
+</div><!-- responsiveImage -->
+
+
+<footer class=" mt-5">
+	<div class="container ">
+		<div class="row">
+			<div class="col-sm-12 d-flex justify-content-center ">
+				<img src="images/logo1.png" alt="" class="adjustHeight text-center">
+			</div>
+			<div class="col-sm-12 d-flex justify-content-center mt-4" id="iconsBottom">
+				<div class="wrapper2 d-flex justify-content-center align-items-center">
+					<i class="fa fa-facebook-official iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-twitter iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-pinterest-p iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-camera-retro iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-google-plus iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-youtube-play iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3"  >
+					<i class="fa fa-info iconFace" aria-hidden="true"></i>
+
+				</div>
+				<div class="wrapper2 d-flex justify-content-center align-items-center ml-3">
+					<i class="fa fa-text-width iconFace" aria-hidden="true"></i>
+
+				</div>
+				</div>
+				
+		</div>
+	</div>
+</footer>
+<div class="wrapper102 theBorder mt-4 mb-4">
+	<div class="container classHeight">
+		<div class="row classHeight">
+			<div class="col-sm-12  d-flex justify-content-center align-items-center h-100 centerTexts" >
+					<div class="list-inline adjustHeight">
+						<p class="list-inline-item text-capitalize style" >home</p>
+						<p class="list-inline-item text-capitalize pl-2 style" >Buy Theme</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Scores</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Football</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Baseball</p>
+						<p class="list-inline-item text-capitalize pl-2 style" >Soccer</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Basketball</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Hockey</p>
+						<p class="list-inline-item text-capitalize pl-2 style">Shop</p>
+					</div>
+			</div><!-- col-12 -->
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12  d-flex justify-content-center align-items-center centerTexts mb-3">
+			<p class="style104">Copyright © 2017 The League Theme. Theme by MVP Themes, powered by WordPress.</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<div class="arrowUp d-flex justify-content-center align-items-center">
+		<i class="fa fa-chevron-up arrowUpIcon" aria-hidden="true"></i>
+	</div>
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.1.1.js"></script>
 <script src="js/ui/jquery-ui.min.js"></script>
 <script src="js/scrollMonitor/scrollMonitor.js"></script>
-
+<script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+<script src="js/s/src/jquery.stickit.js"></script>
 <script src="js/script.js"></script>
 
 </body> 
